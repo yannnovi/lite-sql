@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc liblitesql_sqlite.a CMakeFiles/litesql_sqlite.dir/sqlite3/sqlite3_backend.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib liblitesql_sqlite.a

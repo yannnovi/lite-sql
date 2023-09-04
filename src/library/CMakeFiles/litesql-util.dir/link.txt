@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc liblitesql-util.a CMakeFiles/litesql-util.dir/split.cpp.o CMakeFiles/litesql-util.dir/string.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib liblitesql-util.a

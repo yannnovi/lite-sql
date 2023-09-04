@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++ -Wall -Wextra -Wunused-variable -Wno-long-long -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/test-update-table.dir/test-update-table.cpp.o -o test-update-table  ../library/liblitesql.a ../library/liblitesql-util.a ../library/liblitesql_sqlite.a 

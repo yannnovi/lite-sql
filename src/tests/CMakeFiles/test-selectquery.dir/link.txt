@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++ -Wall -Wextra -Wunused-variable -Wno-long-long -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/test-selectquery.dir/test-selectquery.cpp.o -o test-selectquery  ../library/liblitesql.a ../library/liblitesql-util.a 
