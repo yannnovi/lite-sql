@@ -230,7 +230,7 @@ public:
     }
     
   struct CompareByObjectName
-		: public binary_function<Ptr, Ptr, bool>
+		
 	{	// functor for operator<
 	bool operator()(const Ptr& _Left, const Ptr& _Right) const
 		{	// apply operator< to operands

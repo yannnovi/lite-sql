@@ -4,10 +4,10 @@
 #define HAVE_ATOF
 
 /* Define to 1 if you have the <dlfcn.h> header file. */
-#define HAVE_DLFCN_H
+/* #undef HAVE_DLFCN_H */
 
 /* Define to 1 if you have the `gettimeofday' function. */
-#define HAVE_GETTIMEOFDAY
+/* #undef HAVE_GETTIMEOFDAY */
 
 /* Define to 1 if you have the <inttypes.h> header file. */
 #define HAVE_INTTYPES_H
@@ -22,7 +22,7 @@
 /* #undef HAVE_LIBSQLITE3 */
 
 /* Define to 1 if you have the `localtime_r' function. */
-#define HAVE_LOCALTIME_R
+/* #undef HAVE_LOCALTIME_R */
 
 /* Define to 1 if your system has a GNU libc compatible `malloc' function, and
    to 0 otherwise. */
@@ -57,7 +57,7 @@
 /* #undef HAVE_STRDUP */
 
 /* Define to 1 if you have the <strings.h> header file. */
-#define HAVE_STRINGS_H
+/* #undef HAVE_STRINGS_H */
 
 /* Define to 1 if you have the <string.h> header file. */
 #define HAVE_STRING_H
@@ -87,7 +87,7 @@
 #define HAVE_SYS_TYPES_H
 
 /* Define to 1 if you have the <unistd.h> header file. */
-#define HAVE_UNISTD_H
+/* #undef HAVE_UNISTD_H */
 
 /* Define to 1 if the system has the type `_Bool'. */
 /* #undef HAVE__BOOL */
@@ -123,8 +123,8 @@
 /* #undef const */
 
 #define LITESQL_WITH_BACKEND_PLUGINS
-#define CMAKE_SHARED_LIBRARY_PREFIX "lib"
-#define CMAKE_SHARED_LIBRARY_SUFFIX ".dylib"
+/* #undef CMAKE_SHARED_LIBRARY_PREFIX */
+#define CMAKE_SHARED_LIBRARY_SUFFIX ".dll"
   
 /* Define to `__inline__' or `__inline' if that's what the C compiler
    calls it, or to nothing if 'inline' is not supported under any name.  */

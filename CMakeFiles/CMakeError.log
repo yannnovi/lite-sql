@@ -338,3 +338,93 @@ ld: library not found for -lc++
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 
 
+Determining if files dlfcn.h exist failed with the following output:
+Change Dir: C:/src/lite-sql/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_0950b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+  Compilateur d'optimisation Microsoft (R) C/C++ version 19.29.30153 pour x64
+  Copyright (C) Microsoft Corporation. Tous droits réservés.
+  HAVE_DLFCN_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0950b.dir\Debug\\" /Fd"cmTC_0950b.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\src\lite-sql\CMakeFiles\CheckIncludeFiles\HAVE_DLFCN_H.c"
+C:\src\lite-sql\CMakeFiles\CheckIncludeFiles\HAVE_DLFCN_H.c(2,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'dlfcn.h' : No such file or directory [C:\src\lite-sql\CMakeFiles\CMakeTmp\cmTC_0950b.vcxproj]
+
+
+Source:
+/* */
+#include <dlfcn.h>
+
+
+int main(void){return 0;}
+
+Determining if files strings.h exist failed with the following output:
+Change Dir: C:/src/lite-sql/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_5fbdb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+  Compilateur d'optimisation Microsoft (R) C/C++ version 19.29.30153 pour x64
+  Copyright (C) Microsoft Corporation. Tous droits réservés.
+  HAVE_STRINGS_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5fbdb.dir\Debug\\" /Fd"cmTC_5fbdb.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\src\lite-sql\CMakeFiles\CheckIncludeFiles\HAVE_STRINGS_H.c"
+C:\src\lite-sql\CMakeFiles\CheckIncludeFiles\HAVE_STRINGS_H.c(2,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'strings.h' : No such file or directory [C:\src\lite-sql\CMakeFiles\CMakeTmp\cmTC_5fbdb.vcxproj]
+
+
+Source:
+/* */
+#include <strings.h>
+
+
+int main(void){return 0;}
+
+Determining if files unistd.h exist failed with the following output:
+Change Dir: C:/src/lite-sql/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_1ddef.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+  Compilateur d'optimisation Microsoft (R) C/C++ version 19.29.30153 pour x64
+  Copyright (C) Microsoft Corporation. Tous droits réservés.
+  HAVE_UNISTD_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1ddef.dir\Debug\\" /Fd"cmTC_1ddef.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\src\lite-sql\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c"
+C:\src\lite-sql\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c(2,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'unistd.h' : No such file or directory [C:\src\lite-sql\CMakeFiles\CMakeTmp\cmTC_1ddef.vcxproj]
+
+
+Source:
+/* */
+#include <unistd.h>
+
+
+int main(void){return 0;}
+
+Determining if the function gettimeofday exists failed with the following output:
+Change Dir: C:/src/lite-sql/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_4e850.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+  Compilateur d'optimisation Microsoft (R) C/C++ version 19.29.30153 pour x64
+  Copyright (C) Microsoft Corporation. Tous droits réservés.
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gettimeofday /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4e850.dir\Debug\\" /Fd"cmTC_4e850.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: symbole externe non résolu gettimeofday référencé dans la fonction main [C:\src\lite-sql\CMakeFiles\CMakeTmp\cmTC_4e850.vcxproj]
+C:\src\lite-sql\CMakeFiles\CMakeTmp\Debug\cmTC_4e850.exe : fatal error LNK1120: 1 externes non résolus [C:\src\lite-sql\CMakeFiles\CMakeTmp\cmTC_4e850.vcxproj]
+
+
+
+Determining if the function localtime_r exists failed with the following output:
+Change Dir: C:/src/lite-sql/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_77e85.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+  Compilateur d'optimisation Microsoft (R) C/C++ version 19.29.30153 pour x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation. Tous droits réservés.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=localtime_r /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_77e85.dir\Debug\\" /Fd"cmTC_77e85.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: symbole externe non résolu localtime_r référencé dans la fonction main [C:\src\lite-sql\CMakeFiles\CMakeTmp\cmTC_77e85.vcxproj]
+C:\src\lite-sql\CMakeFiles\CMakeTmp\Debug\cmTC_77e85.exe : fatal error LNK1120: 1 externes non résolus [C:\src\lite-sql\CMakeFiles\CMakeTmp\cmTC_77e85.vcxproj]
+
+
+
